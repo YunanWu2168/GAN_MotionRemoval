@@ -18,7 +18,7 @@ Class: 2021-SPRING-CS-497: DEEP GENERATIVE MODELS
      * 3.4 Statistical Analysis
      * 3.5 Experimental Design
 * [4. Results ](#4-results)
-     * 4.1 
+     * 4.1 Computational Result
      * 4.2 Visualizations
 * [5. Discussion](#5-discussion)
      * 5.1 Discussion
