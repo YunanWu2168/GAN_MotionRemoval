@@ -14,7 +14,7 @@ Class: 2021-SPRING-CS-497: DEEP GENERATIVE MODELS
 * [3. Methods](#3-methods)
      * 3.1 Denoising Model
      * 3.2 The Generative Adversial Networks
-     * 3.3 The perceptive Loss
+     * 3.3 The Perceptive Loss
      * 3.4 Statistical Analysis
      * 3.5 Experimental Design
 * [4. Results ](#4-results)
