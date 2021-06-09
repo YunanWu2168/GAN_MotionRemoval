@@ -164,7 +164,7 @@ The testing datasets were used to evaluate the model performance, which consiste
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45545175/121281923-5d431f00-c89e-11eb-9af3-c48c0ca05502.png" />
   <br>
-    <em>Figure 5. The architecture of the proposed discriminator network.</em>
+    <em>Table. 1. Model performance comparisons between four different models using the metrics of structural similarity index (SSIM) and mean square error (MSE).</em>
 </p>
 
 
