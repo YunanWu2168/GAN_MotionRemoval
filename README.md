@@ -20,7 +20,7 @@ Class: 2021-SPRING-CS-497: DEEP GENERATIVE MODELS
 * [4. Results ](#4-results)
      * 4.1 Computational Result
      * 4.2 Visualizations
-* [5. Limitations and Future Work](#5-limitation-and-future-work)
+* [5. Limitations and Future Work](#5-limitations-and-future-work)
      * 5 Limitations and Future Work
 
 
