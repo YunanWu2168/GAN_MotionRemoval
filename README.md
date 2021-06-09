@@ -175,6 +175,12 @@ Among the 3750 testing images with simulated motion artifacts, the performance o
 
 Finally, we evaluated this proposed model on images with real motion artifacts. Obvious motion artifact reduction, especially in regions with severe ghosting artifacts, was observed on these images (sub-figure), which tested the model’s generalization.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45545175/121283193-57e6d400-c8a0-11eb-9046-60b300f67df6.png" />
+  <br>
+    <em> The evaluation reaults on the liver MRIs with real motion artifacts</em>
+</p>
+
 
 # **5 Discussion**
 
