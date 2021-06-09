@@ -9,8 +9,7 @@ Class: 2021-SPRING-CS-497: DEEP GENERATIVE MODELS
     * 1.2 Problem Description
     * 1.3 Related Work
 * [2. Materials](#2-materials)
-    * 2.1 Dataset
-    * 2.2 Motion Simulation
+    * 2.1 Motion Simulation
 * [3. Methods](#3-methods)
      * 3.1 Denoising Model
      * 3.2 The Generative Adversial Networks
@@ -47,10 +46,8 @@ Recent years, deep learning (DL) approaches have been developed in medical imagi
 
 # **2 Materials**
 
-**2.1 Dataset**
 
-
-**2.2 Motion Simulation**
+**2.1 Motion Simulation**
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45545175/121229286-5e029380-c853-11eb-865d-edd42d0f77ed.png" />
