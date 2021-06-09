@@ -2,7 +2,7 @@
 
 Team member: Yunan Wu, Xijun Wang.
 
-Class: 2021-SPRING-CS-497: DEEP GENERATIVE MODELS
+Class: 2021-SPRING-CS-496: DEEP GENERATIVE MODELS
 
 * [1. Introduction](#1-introduction)
     * 1.1 Objective
