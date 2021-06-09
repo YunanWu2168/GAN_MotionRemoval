@@ -178,7 +178,13 @@ Finally, we evaluated this proposed model on images with real motion artifacts. 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45545175/121283193-57e6d400-c8a0-11eb-9046-60b300f67df6.png" />
   <br>
-    <em> The evaluation reaults on the liver MRIs with real motion artifacts</em>
+    <em> Example 1: The evaluation reaults on the liver MRIs with real motion artifacts</em>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45545175/121283381-9aa8ac00-c8a0-11eb-94d9-57e6009394c0.png" />
+  <br>
+    <em> Example 2: The evaluation reaults on the liver MRIs with real motion artifacts</em>
 </p>
 
 
