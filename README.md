@@ -208,8 +208,34 @@ MSE and SSIM values were calculated for each type and across all types of the si
 
 **3.5 Experimental Design**
 
-# **4 Results**
+The liver MRI image volumes that had no obvious motion artifacts (i.e., “clean image”) in 10 patients were selected in the training process , of which 8 was used for training and 2 for validation. Three different types of the simulated motion artifacts were added to these clean images.  During the training of the DRN-DCMB model, 20 small image patches (size: 64×64) were randomly generated from each full-size image, leading to a total of 150,000 patches (20 patches × 25 slices × 3motion types × 10 randomized parameters × 8 patients) for the training dataset, and 30,000 patches (20 patches × 25 slices ×3 motion types × 10 randomized parameters × 2 patients) for the validation dataset. Other training parameters included: batch size = 64, early stopping at the 34th epoch, and a learning rate initialized from 0.0001 using the Adam optimization algorithm. The training time was 3.7 hours for training the DRN-DCMB model.
+During the training process of the GAN model, the full-size simulated motion images (size: 512×512) were used as the input, with 6,000 images (25 slices ×3 motion types x 10 randomized parameters ×8 patients) used for training and 1500 images (25 slices ×3 motion types × 10 randomized parameters × 2 patients) used for validation. Other training parameters included: batch size = 8, early stopping at the 9th epoch, and a learning rate initialized from 0.00005 using the Adam optimization algorithm. The training time was 2.6 hours for training the proposed model.
 
+The testing datasets were used to evaluate the model performance, which consisted of 3750 clean images with simulated motion acquired from 5 patients (25 slices ×3 motion types × 10 randomized parameters ×5 patients). 
+
+
+# **4 Results**
+4.1 Computational Results
+
+Among the 3750 testing images with simulated motion artifacts, the performance of artifact reduction by four different models were compared, as shown in Table 1. The overall SSIM of using the GAN model with perceptual loss achieved the best performance of 0.901 ± 0.068 and MSE was 0.003 ± 0.001 comapred with the GAN models without perceptual loss and the denoising CNN model. In addition, pretraining with denoising CNN weights in GAN models improves the overall performance from SSIM of 0.890 ± 0.107 to 0.900 ± 0.003.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45545175/121281923-5d431f00-c89e-11eb-9af3-c48c0ca05502.png" />
+  <br>
+    <em>Table. 1. Model performance comparisons between four different models using the metrics of structural similarity index (SSIM) and mean square error (MSE).</em>
+</p>
+
+4.2 Visualizations
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45545175/121283193-57e6d400-c8a0-11eb-9046-60b300f67df6.png" />
+  <br>
+    <em> Example 1: The evaluation reaults on the liver MRIs with real motion artifacts</em>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45545175/121283381-9aa8ac00-c8a0-11eb-94d9-57e6009394c0.png" />
+  <br>
+    <em> Example 2: The evaluation reaults on the liver MRIs with real motion artifacts</em>
 
 # **5 Limitations and Future Work**
 
