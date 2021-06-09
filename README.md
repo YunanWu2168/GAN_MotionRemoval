@@ -240,3 +240,50 @@ Finally, we evaluated this proposed model on images with real motion artifacts. 
 # **5 Limitations and Future Work**
 
 There are several limitations of this study. First of all, the effectiveness of motion reduction in real motion scenarios was inferior to that achieved in simulated motion scenarios. Although we saw many good results from some testing images with real motions, there were some cases that had bad denoising performance. Next, it is really difficult to have analytical assessment of the model output images for interpretation of diseases and subtle anatomical structures. As we discussed before, there were no ground truth images for the testing dataset. As a result, although the motion was reduced by the model, you cannot tell how good the model performed.
+	
+	
+References
+	
+[1]	S. H. Ali, M. E. Modic, S. Y. Mahmoud, and S. E. Jones, “Reducing Clinical MRI Motion Degradation Using a Prescan Patient Information Pamphlet,” Am. J. Roentgenol., vol. 200, no. 3, pp. 630–634, Mar. 2013, doi: 10.2214/AJR.12.9015.
+
+[2]	T. Zhang et al., “Clinical performance of contrast enhanced abdominal pediatric MRI with fast combined parallel imaging compressed sensing reconstruction,” J. Magn. Reson. Imaging, vol. 40, no. 1, pp. 13–25, 2014, doi: https://doi.org/10.1002/jmri.24333.
+
+[3]	K. G. Hollingsworth, “Reducing acquisition time in clinical MRI by data undersampling and compressed sensing reconstruction,” Phys. Med. Biol., vol. 60, no. 21, pp. R297–R322, Nov. 2015, doi: 10.1088/0031-9155/60/21/R297.
+
+[4]	H. Chandarana et al., “Free-Breathing Contrast-Enhanced Multiphase MRI of the Liver Using a Combination of Compressed Sensing, Parallel Imaging, and Golden-Angle Radial Sampling:,” Invest. Radiol., vol. 48, no. 1, pp. 10–16, Jan. 2013, doi: 10.1097/RLI.0b013e318271869c.
+
+[5]	S. S. Vasanawala, M. T. Alley, B. A. Hargreaves, R. A. Barth, J. M. Pauly, and M. Lustig, “Improved Pediatric MR Imaging with Compressed Sensing,” Radiology, vol. 256, no. 2, pp. 607–616, Aug. 2010, doi: 10.1148/radiol.10091218.
+
+[6]	L. Gjesteby, Q. Yang, Y. Xi, Y. Zhou, J. Zhang, and G. Wang, “Deep learning methods to guide CT image reconstruction and reduce metal artifacts,” in Medical Imaging 2017: Physics of Medical Imaging, Mar. 2017, vol. 10132, p. 101322W, doi: 10.1117/12.2254091.
+
+[7]	J. Schlemper, J. Caballero, J. V. Hajnal, A. N. Price, and D. Rueckert, “A Deep Cascade of Convolutional Neural Networks for Dynamic MR Image Reconstruction,” IEEE Trans. Med. Imaging, vol. 37, no. 2, pp. 491–503, Feb. 2018, doi: 10.1109/TMI.2017.2760978.
+
+[8]	I. Oksuz et al., “Detection and Correction of Cardiac MRI Motion Artefacts During Reconstruction from k-space,” in Medical Image Computing and Computer Assisted Intervention – MICCAI 2019, vol. 11767, D. Shen, T. Liu, T. M. Peters, L. H. Staib, C. Essert, S. Zhou, P.-T. Yap, and A. Khan, Eds. Cham: Springer International Publishing, 2019, pp. 695–703.
+	
+[9]	S. J. Sujit, I. Coronado, A. Kamali, P. A. Narayana, and R. E. Gabr, “Automated image quality evaluation of structural brain MRI using an ensemble of deep learning networks,” J. Magn. Reson. Imaging, vol. 50, no. 4, pp. 1260–1267, 2019, doi: https://doi.org/10.1002/jmri.26693.
+
+[10]	Y. Ding, S. Suffren, P. Bellec, and G. A. Lodygensky, “Supervised machine learning quality control for magnetic resonance artifacts in neonatal data sets,” Hum. Brain Mapp., vol. 40, no. 4, pp. 1290–1297, 2019, doi: https://doi.org/10.1002/hbm.24449.
+
+[11]	J. Liu, M. Kocak, M. Supanich, and J. Deng, “Motion artifacts reduction in brain MRI by means of a deep residual network with densely connected multi-resolution blocks (DRN-DCMB),” Magn. Reson. Imaging, vol. 71, pp. 69–79, Sep. 2020, doi: 10.1016/j.mri.2020.05.002.
+
+[12]	Q. Zhang et al., “MRI Gibbs-ringing artifact reduction by means of machine learning using convolutional neural networks,” Magn. Reson. Med., vol. 82, no. 6, pp. 2133–2145, 2019, doi: https://doi.org/10.1002/mrm.27894.
+
+[13]	W. Jiang et al., “Respiratory Motion Correction in Abdominal MRI using a Densely Connected U-Net with GAN-guided Training,” p. 8.
+
+[14]	D. Tamada, M.-L. Kromrey, S. Ichikawa, H. Onishi, and U. Motosugi, “Motion Artifact Reduction Using a Convolutional Neural Network for Dynamic Contrast Enhanced MR Imaging of the Liver,” Magn. Reson. Med. Sci., vol. 19, no. 1, pp. 64–76, Apr. 2019, doi: 10.2463/mrms.mp.2018-0156.
+
+[15]	M.-L. Kromrey et al., “Reduction of respiratory motion artifacts in gadoxetate-enhanced MR with a deep learning–based filter using convolutional neural network,” Eur. Radiol., vol. 30, no. 11, pp. 5923–5932, Nov. 2020, doi: 10.1007/s00330-020-07006-1.
+
+[16]	K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, Jun. 2016, pp. 770–778, doi: 10.1109/CVPR.2016.90.
+
+[17]	B. Lorch, G. Vaillant, C. Baumgartner, W. Bai, D. Rueckert, and A. Maier, “Automated Detection of Motion Artefacts in MR Imaging Using Decision Forests,” J. Med. Eng., vol. 2017, pp. 1–9, Jun. 2017, doi: 10.1155/2017/4501647.
+
+[18]	L. B. Smith and D. Heise, “Perceptual Similarity and Conceptual Structure,” in Advances in Psychology, vol. 93, Elsevier, 1992, pp. 233–272.
+
+[19]	A. Krizhevsky, I. Sutskever, and G. E. Hinton, “ImageNet classification with deep convolutional neural networks,” Commun. ACM, vol. 60, no. 6, pp. 84–90, May 2017, doi: 10.1145/3065386.
+	
+[20]	Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, “Image quality assessment: from error visibility to structural similarity,” IEEE Trans. Image Process., vol. 13, no. 4, pp. 600–612, Apr. 2004, doi: 10.1109/TIP.2003.819861.
+
+[21]	I. J. Goodfellow et al., “Generative Adversarial Networks,” ArXiv14062661 Cs Stat, Jun. 2014, Accessed: Jan. 06, 2021. [Online]. Available: http://arxiv.org/abs/1406.2661.
+
+
