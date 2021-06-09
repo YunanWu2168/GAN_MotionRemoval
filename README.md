@@ -211,6 +211,6 @@ MSE and SSIM values were calculated for each type and across all types of the si
 # **4 Results**
 
 
-# **5 Discussion**
+# **5 Limitations and Future Work**
 
-
+There are several limitations of this study. First of all, the effectiveness of motion reduction in real motion scenarios was inferior to that achieved in simulated motion scenarios. Although we saw many good results from some testing images with real motions, there were some cases that had bad denoising performance. Next, it is really difficult to have analytical assessment of the model output images for interpretation of diseases and subtle anatomical structures. As we discussed before, there were no ground truth images for the testing dataset. As a result, although the motion was reduced by the model, you cannot tell how good the model performed.
