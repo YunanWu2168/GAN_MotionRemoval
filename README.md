@@ -155,7 +155,7 @@ where L_pixel is the MSE loss defined in the pixel space, defined as,
 
 where Y^ is the output of the generator G - the generated liver images, and Y is the corresponding ground truth images.
 
-and L_Mi is the feature loss, which has been defined above, L_GAN_G is the adversarial loss of generator, defined as,
+and L_Mi is the feature loss, which will be defined in the next subsection, L_GAN_G is the adversarial loss of generator, defined as,
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/23268412/121282465-30dbd280-c89f-11eb-92c0-8b6bbc6a95b5.png" />
@@ -185,7 +185,7 @@ where  denotes the output image from the DRN-DCMB model on the long end of the n
     <em>Figure 6. The architecture of the proposed model using perceptual loss function.</em>
 </p>
 
-The initialized weights of the new model consisted of two parts: weights trained from the DRN-DCMB model and weights of the original VGG-16 net. The VGG-16 network was pre-trained on the ImageNet to extract meaningful features more easily recognized by human eyes. The VGG-16 network extracted feature maps from the DRN-DCMB model output image and the ground truth clean image separately, and then the perceptual loss was calculated from these two features maps, which was then back-propagated to update the weights in the DRN-DCMB network. Note all weights of the VGG-16 net itself was not trained or updated. More specifically, the new model training process included the following steps. 1) The input simulated motion images to the DRN-DCMB network was a full-size image instead of small-patch images; 2) The output image from the DRN-DCMB network was fed into the pre-trained VGG-16 network for feature extraction from the layer of “block5_conv3” (feature map size: 32×32×512); 3) The ground true clean image was also fed into another pre-trained VGG-16 network for feature extraction from the layer of “block5_conv3” (feature map size: 32×32×512); 4) The perceptual loss was calculated by comparing the two feature maps, as illustrated in above equation; 5) The perceptual loss was back-propagated to update the weights in the DRN-DCMB model. 
+The initialized weights of the new model consisted of two parts: weights trained from the DRN-DCMB model and weights of the original VGG-16 net. The VGG-16 network was pre-trained on the ImageNet to extract meaningful features more easily recognized by human eyes. The VGG-16 network extracted feature maps from the DRN-DCMB model output image and the ground truth clean image separately, and then the perceptual loss was calculated from these two features maps, which was then back-propagated to update the weights in the DRN-DCMB network. Note all weights of the VGG-16 net itself was not trained or updated. More specifically, the new model training process included the following steps. 1) The input simulated motion images to the DRN-DCMB network was a full-size image instead of small-patch images; 2) The output image from the DRN-DCMB network was fed into the pre-trained VGG-16 network for feature extraction from the layer of “block5_conv3” (feature map size: 32×32×512); 3) The ground true clean image was also fed into another pre-trained VGG-16 network for feature extraction from the layer of “block5_conv3” (feature map size: 32×32×512); 4) The perceptual loss was calculated by comparing the two feature maps, as illustrated in above equation. 
 
 
 
