@@ -126,6 +126,15 @@ In addition, residual learning [16] was used during the training process to lear
  
 **3.2 The Generative Adversial Networks**
 
+To further improve the perceptual quality of generated liver results, we decide to make use of the GAN framework, for its ability of generating the realistic images. We are keeping the DRN-DCMB as our generator network (Figure 1), and build the discriminator network shown in Figure 5.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/23268412/121280059-3fc08600-c89b-11eb-851c-25354df77278.png" />
+  <br>
+    <em>Figure 5. The architecture of the proposed discriminator network.</em>
+</p>
+
+
 **3.3 The Perceptive Loss**
 
 **3.4 Statistical Analysis**
