@@ -1,8 +1,3 @@
-# Motion Artifact Reduction on Liver MRI Using Generative Adversarial Networks
-
-Team member: Yunan Wu, Xijun Wang.
-
-Class: 2021-SPRING-CS-496: DEEP GENERATIVE MODELS
 
 * [1. Introduction](#1-introduction)
     * 1.1 Objective
