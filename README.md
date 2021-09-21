@@ -45,7 +45,7 @@ Recent years, deep learning (DL) approaches have been developed in medical imagi
 **2.1 Motion Simulation**
 
 <p align="center">
-  <img src="![Fig1]https://user-images.githubusercontent.com/23268412/134107308-03b28590-3598-4abb-8d0f-42cd1b85b22c.png" />
+  <img src="https://user-images.githubusercontent.com/23268412/134107308-03b28590-3598-4abb-8d0f-42cd1b85b22c.png" />
   <br>
     <em>Figure 1. The process of motion simulation in K-space.</em>
 
