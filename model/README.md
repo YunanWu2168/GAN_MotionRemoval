@@ -1,3 +1,3 @@
-Pretrained model's weight: model_denoising2.hdf
+Pretrained model's weight: model_denoising2.hdf5
 
-PercepGAN-preG weight: 
+Proposed PercepGAN-preG model's weight: 
