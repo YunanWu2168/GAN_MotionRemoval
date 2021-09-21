@@ -2,8 +2,8 @@
 * [1. Abstract](#1-abstract)
 * [2. Proposed-Model](#2-proposed-model)
 * [3. Results ](#3-results)
-     * 4.1 Computational Result
-     * 4.2 Visualizations
+     * 3.1 Computational Result
+     * 3.2 Visualizations
 
 
 
